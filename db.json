@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "email": "vitorsoaresf@gmail.com",
+      "password": "$2a$10$J6seYDqYFBOG9zVYAGGBjOc3t7iqlRywnmJ0827CWab2dKYFNG3Wa",
+      "name": "Vitor",
+      "id": 1
+    },
+    {
+      "email": "morganamrmadruga@gmail.com",
+      "password": "$2a$10$62AY/n0fzIk.lIFEjIMpkuqc3rw9rwxqVpSwe/R6mJQBugKbi5Phq",
+      "name": "Morgana Moura Ramos",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "product": "Hamburguer",
+      "price": "14.00",
+      "category": "Sanduíches",
+      "id": 1,
+      "img": ""
+    },
+    {
+      "product": "X-Burguer",
+      "price": "16.00",
+      "category": "Sanduíches",
+      "id": 2,
+      "img": ""
+    },
+    {
+      "product": "Big-Kenzie",
+      "price": "18.00",
+      "category": "Sanduíches",
+      "id": 3,
+      "img": ""
+    },
+    {
+      "product": "Combo Kenzie",
+      "price": "26.00",
+      "category": "Combos",
+      "id": 4,
+      "img": ""
+    },
+    {
+      "product": "Fanta Guaraná",
+      "price": "5.00",
+      "category": "Bebidas",
+      "id": 5,
+      "img": ""
+    },
+    {
+      "product": "Coca Cola",
+      "price": "7.00",
+      "category": "Bebidas",
+      "id": 6,
+      "img": ""
+    },
+    {
+      "product": "McShake Ovomaltine",
+      "price": "10.00",
+      "category": "Sobremesas",
+      "id": 7,
+      "img": ""
+    },
+    {
+      "product": "McShake Chocolate",
+      "price": "10.00",
+      "category": "Sobremesas",
+      "id": 8,
+      "img": ""
+    }
+  ],
+  "cart": [
+    {
+      "userId": 1,
+      "items": [
+        {
+          "product": "Hamburguer",
+          "price": "14.00",
+          "category": "Sanduíches",
+          "id": 1,
+          "img": ""
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "userId": 1,
+      "productId": 1,
+      "comment": "Produto muito bom"
+    },
+    {
+      "userId": 2,
+      "productId": 1,
+      "comment": "Produto muito bom mesmo"
+    }
+  ]
+}
