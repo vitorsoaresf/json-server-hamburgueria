@@ -12,8 +12,8 @@ const rules = auth.rewriter({
   "/users": "/644/users/?_embed=comments&_embed=cart",
   "/products": "/644/products/?_embed=comments",
   "/products/:id": "/644/products/:id?_embed=comments",
-  cart: 644,
-  comments: 640,
+  cart: 640,
+  comments: 644,
 });
 
 app.use(cors());

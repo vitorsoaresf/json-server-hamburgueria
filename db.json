@@ -74,27 +74,38 @@
   "cart": [
     {
       "userId": 1,
-      "items": [
-        {
-          "product": "Hamburguer",
-          "price": "14.00",
-          "category": "Sanduíches",
-          "id": 1,
-          "img": ""
-        }
-      ]
+      "productId": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 4,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "productId": 4,
+      "id": 3
     }
   ],
   "comments": [
     {
       "userId": 1,
       "productId": 1,
-      "comment": "Produto muito bom"
+      "comment": "Produto muito bom",
+      "id": 1
     },
     {
       "userId": 2,
       "productId": 1,
-      "comment": "Produto muito bom mesmo"
+      "comment": "Produto muito bom mesmo",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "productId": 3,
+      "comment": "Produto muito bom",
+      "id": 3
     }
   ]
 }
